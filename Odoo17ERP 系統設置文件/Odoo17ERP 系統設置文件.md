@@ -91,8 +91,19 @@ tags: [odoo]
         * 採購：管理者
         * 會計：帳單管理者
         * 系統管理：管理者
-
-
+### 4.2 新增「ec管理員」
+* 說明：新增使用者「ec管理員」
+* 設定方式：
+    * 路徑：設定>使用者及公司>使用者，點擊「新增」按鈕
+    * 資料設定：
+        * 名稱：ec管理員
+        * 電子郵件地址：ec@ewebs.com.tw
+        * 銷售：管理者
+        * 庫存：管理者
+        * 採購：管理者
+        * 會計：帳單管理者
+        * 系統管理：管理者
+  
 ## 五、自動化規則
 * 路徑：設定>技術>自動化>自動化規則
 ### 5.1 新增「RPA報價單自動轉銷售訂單」
@@ -242,12 +253,12 @@ tags: [odoo]
 * 路徑：會計>配置>會計>日記帳，日記帳選擇類型為「銀行」，
 * 「收款」頁籤 > 「名稱」和「未結收款科目」欄位，選擇「111301銀行」
 * 「付款」頁籤 > 「名稱」和「未結付款科目」欄位，選擇「111301銀行」
+
 ## 八、初始資料設定
 ### 8.1 [匯入-商品>初始設定](https://docs.google.com/spreadsheets/d/1ttaN-erDRJUIpLyvIGcxJ34HWFzeq8Milt2nk45LrSQ/edit?usp=drive_link)
 ### 8.2 [匯入-銀行>初始設定](https://docs.google.com/spreadsheets/d/1O_hWBfkv72YltDApbQd_DVIUZPnq2Ga6sGBSF8_6fGk/edit?usp=drive_link)
-### 8.3 [匯入-CRM標籤>初始設定](https://docs.google.com/spreadsheets/d/1z11GD1qTZxX4HUl5lcBjNvhvAX6XzU0KKDgRLbBBQok/edit?usp=drive_link)
 
 ## 九、權限設定
-### 1. RPA權限
-* RPA權限設定(模板已先預設)
+### 9.1 RPA和ec負責人權限
+* RPA和ec負責人權限設定(模板已先預設)
 ![image alt](https://i.imgur.com/893srUQ.png)
